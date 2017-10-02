@@ -32,3 +32,23 @@ p:before {
   content: "\270E";
 }
 
+.tooltip {
+  width: 290px;
+  padding: 10px;
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  top: 80px;
+}
+
+.tooltip input {
+  border: none;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+  box-shadow: 0 2px 6px #bbb inset;
+  border-radius: 3px;
+  line-height: 34px;
+}

@@ -7,18 +7,18 @@ var demo = new Vue({
 
   // Define some data and properties
   data: {
-    show_tooltip: true,
-    text_content: 'SQUEEEEEEE!'
+    show_tooltip: false,
+    text_content: 'Click me to edit my text!'
   },
-
-
 
   // Define some functions
   methods: {
     toggleTooltip: function() {
       this.show_tooltip = !this.show_tooltip;
+    },
+    hideTooltip: function() {
+      this.show_tooltip = false;
     }
-
 
   }
 
